@@ -1,0 +1,33 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.5;
+}
+
+p {
+  line-height: 1.2;
+  font-size: 16px;
+
+  &:not(:last-of-type) {
+    margin-bottom: 1rem;
+  }
+}
+
+h1 {
+  font-size: 42px;
+}
+
+h2 {
+  font-size: 33px;
+}
+
+h3 {
+  font-size: 26px;
+}
+
+h4 {
+  font-size: 20px;
+}
